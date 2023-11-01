@@ -24,7 +24,6 @@ export class InMemoryUsersRepository implements UsersRepository {
       created_at: new Date(),
     }
     this.db.push(user)
-    console.log(this.db)
 
     return user
   }
